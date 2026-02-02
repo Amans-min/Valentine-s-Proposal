@@ -1,7 +1,7 @@
 /* Body and Background Image with Dark Overlay */
 body {
     font-family: 'Arial', sans-serif;
-    background: url('./image/bg_image.jpg') no-repeat center center fixed; /* Correct background image */
+    background: url('/image/bg_image.jpg') no-repeat center center fixed; /* Correct background image */
     background-size: cover;
     color: white;
     text-align: center;
@@ -192,3 +192,4 @@ button:active {
     font-size: 36px;
     margin-left: 10px;
 }
+
