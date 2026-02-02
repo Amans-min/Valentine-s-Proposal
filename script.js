@@ -34,7 +34,7 @@ function showMessage() {
     const name = document.getElementById("name").value;
 
     // Change text and add animation
-    document.getElementById("proposalQuestion").innerText = `Congratulations, ${name}!`;
+    document.getElementById("proposalQuestion").innerText = `Congratulations, my beloved ${name}!`;
 
     // Hide both Yes and No buttons after clicking 'Yes'
     document.getElementById("yesButton").style.display = 'none';
@@ -71,3 +71,4 @@ function showMessage() {
     document.getElementById("yesButton").disabled = true;
     document.getElementById("noButton").disabled = true;
 }
+
